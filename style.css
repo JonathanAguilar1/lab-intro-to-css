@@ -1,0 +1,69 @@
+@keyframes slidein {
+    from {
+        transform: translateX(-100);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+
+h1 {
+font-family: 'fantasy';
+color: purple;
+font-size: 30px;
+animation: slidein 3s ease-in-out infinite;
+text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    color: blue;
+    background-color: lightpink;
+}
+img {
+    height: 200px;
+    /* Block level elements */
+    display: block;
+    margin: 0 auto;
+}
+body {
+    font-family: sans-serif;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: firebrick;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul, ol{
+    padding-left: 30px;
+    
+}
+h2 {
+    text-align: center;
+    
+}
+
